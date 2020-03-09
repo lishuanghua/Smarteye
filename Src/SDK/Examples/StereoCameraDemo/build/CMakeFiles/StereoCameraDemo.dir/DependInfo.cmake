@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/child.cpp" "/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles/StereoCameraDemo.dir/child.cpp.o"
-  "/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/main.cpp" "/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles/StereoCameraDemo.dir/main.cpp.o"
-  "/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/mycamerahandler.cpp" "/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.o"
-  "/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/parent.cpp" "/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles/StereoCameraDemo.dir/parent.cpp.o"
+  "/home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/child.cpp" "/home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles/StereoCameraDemo.dir/child.cpp.o"
+  "/home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/main.cpp" "/home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles/StereoCameraDemo.dir/main.cpp.o"
+  "/home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/mycamerahandler.cpp" "/home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.o"
+  "/home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/parent.cpp" "/home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles/StereoCameraDemo.dir/parent.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

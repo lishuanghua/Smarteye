@@ -59,3 +59,49 @@ bool Parent::Stop()
 
     return true;    
 }
+
+bool Parent::SetCallback()
+{
+    //void* ptr = (void*)(&Parent::Start);
+    //std::cout << ptr << std::endl;
+
+    //pchild->pcameraHandlerA->pCallbackFunc == (CallbackFunc)(&Parent::Callback);
+
+    //pchild->SetCallback(&Parent::Callback);
+    pchild->SetCallback((CallbackFunc)(&Parent::CallbackEx));
+
+    return true;
+}
+
+bool Parent::SetCallbackEx(CallbackFunc ptr)
+{
+    pchild->SetCallback(ptr);
+    //std::cout << &ptr << std::endl;
+    //std::cout << ptr << std::endl;
+
+    return true;
+}
+
+bool Parent::Callback(int x, int y, int z, char* str)
+{
+    std::cout << x << std::endl;
+    std::cout << y << std::endl;
+    std::cout << z << std::endl;
+    std::cout << str << std::endl;
+    char* pStr = "CallBack!";
+    std::cout << pStr << std::endl;
+
+    return true;
+}
+
+bool Parent::CallbackEx(int x, int y, int z, char* str)
+{
+    std::cout << x << std::endl;
+    std::cout << y << std::endl;
+    std::cout << z << std::endl;
+    std::cout << str << std::endl;
+    char* pStr = "CallBack!";
+    std::cout << pStr << std::endl;
+
+    return true;
+}

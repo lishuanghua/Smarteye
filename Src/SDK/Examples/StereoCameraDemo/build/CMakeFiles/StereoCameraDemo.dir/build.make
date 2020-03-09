@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo
+CMAKE_SOURCE_DIR = /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/build
+CMAKE_BINARY_DIR = /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/StereoCameraDemo.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/StereoCameraDemo.dir/flags.make
 
 CMakeFiles/StereoCameraDemo.dir/main.cpp.o: CMakeFiles/StereoCameraDemo.dir/flags.make
 CMakeFiles/StereoCameraDemo.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/StereoCameraDemo.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StereoCameraDemo.dir/main.cpp.o -c /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/StereoCameraDemo.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StereoCameraDemo.dir/main.cpp.o -c /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/main.cpp
 
 CMakeFiles/StereoCameraDemo.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StereoCameraDemo.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/main.cpp > CMakeFiles/StereoCameraDemo.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/main.cpp > CMakeFiles/StereoCameraDemo.dir/main.cpp.i
 
 CMakeFiles/StereoCameraDemo.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StereoCameraDemo.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/main.cpp -o CMakeFiles/StereoCameraDemo.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/main.cpp -o CMakeFiles/StereoCameraDemo.dir/main.cpp.s
 
 CMakeFiles/StereoCameraDemo.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/StereoCameraDemo.dir/main.cpp.o.provides.build: CMakeFiles/StereoCame
 
 CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.o: CMakeFiles/StereoCameraDemo.dir/flags.make
 CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.o: ../mycamerahandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.o -c /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/mycamerahandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.o -c /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/mycamerahandler.cpp
 
 CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/mycamerahandler.cpp > CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/mycamerahandler.cpp > CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.i
 
 CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/mycamerahandler.cpp -o CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/mycamerahandler.cpp -o CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.s
 
 CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/StereoCameraDemo.dir/parent.cpp.o: CMakeFiles/StereoCameraDemo.dir/flags.make
 CMakeFiles/StereoCameraDemo.dir/parent.cpp.o: ../parent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/StereoCameraDemo.dir/parent.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StereoCameraDemo.dir/parent.cpp.o -c /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/parent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/StereoCameraDemo.dir/parent.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StereoCameraDemo.dir/parent.cpp.o -c /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/parent.cpp
 
 CMakeFiles/StereoCameraDemo.dir/parent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StereoCameraDemo.dir/parent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/parent.cpp > CMakeFiles/StereoCameraDemo.dir/parent.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/parent.cpp > CMakeFiles/StereoCameraDemo.dir/parent.cpp.i
 
 CMakeFiles/StereoCameraDemo.dir/parent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StereoCameraDemo.dir/parent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/parent.cpp -o CMakeFiles/StereoCameraDemo.dir/parent.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/parent.cpp -o CMakeFiles/StereoCameraDemo.dir/parent.cpp.s
 
 CMakeFiles/StereoCameraDemo.dir/parent.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/StereoCameraDemo.dir/parent.cpp.o.provides.build: CMakeFiles/StereoCa
 
 CMakeFiles/StereoCameraDemo.dir/child.cpp.o: CMakeFiles/StereoCameraDemo.dir/flags.make
 CMakeFiles/StereoCameraDemo.dir/child.cpp.o: ../child.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StereoCameraDemo.dir/child.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StereoCameraDemo.dir/child.cpp.o -c /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/child.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StereoCameraDemo.dir/child.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StereoCameraDemo.dir/child.cpp.o -c /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/child.cpp
 
 CMakeFiles/StereoCameraDemo.dir/child.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StereoCameraDemo.dir/child.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/child.cpp > CMakeFiles/StereoCameraDemo.dir/child.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/child.cpp > CMakeFiles/StereoCameraDemo.dir/child.cpp.i
 
 CMakeFiles/StereoCameraDemo.dir/child.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StereoCameraDemo.dir/child.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/child.cpp -o CMakeFiles/StereoCameraDemo.dir/child.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/child.cpp -o CMakeFiles/StereoCameraDemo.dir/child.cpp.s
 
 CMakeFiles/StereoCameraDemo.dir/child.cpp.o.requires:
 
@@ -163,17 +163,17 @@ StereoCameraDemo_OBJECTS = \
 # External object files for target StereoCameraDemo
 StereoCameraDemo_EXTERNAL_OBJECTS =
 
-/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Runtime/Bin/StereoCameraDemo: CMakeFiles/StereoCameraDemo.dir/main.cpp.o
-/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Runtime/Bin/StereoCameraDemo: CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.o
-/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Runtime/Bin/StereoCameraDemo: CMakeFiles/StereoCameraDemo.dir/parent.cpp.o
-/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Runtime/Bin/StereoCameraDemo: CMakeFiles/StereoCameraDemo.dir/child.cpp.o
-/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Runtime/Bin/StereoCameraDemo: CMakeFiles/StereoCameraDemo.dir/build.make
-/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Runtime/Bin/StereoCameraDemo: CMakeFiles/StereoCameraDemo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Runtime/Bin/StereoCameraDemo"
+/home/budaoshi/Smarteye/Runtime/Bin/StereoCameraDemo: CMakeFiles/StereoCameraDemo.dir/main.cpp.o
+/home/budaoshi/Smarteye/Runtime/Bin/StereoCameraDemo: CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.o
+/home/budaoshi/Smarteye/Runtime/Bin/StereoCameraDemo: CMakeFiles/StereoCameraDemo.dir/parent.cpp.o
+/home/budaoshi/Smarteye/Runtime/Bin/StereoCameraDemo: CMakeFiles/StereoCameraDemo.dir/child.cpp.o
+/home/budaoshi/Smarteye/Runtime/Bin/StereoCameraDemo: CMakeFiles/StereoCameraDemo.dir/build.make
+/home/budaoshi/Smarteye/Runtime/Bin/StereoCameraDemo: CMakeFiles/StereoCameraDemo.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/budaoshi/Smarteye/Runtime/Bin/StereoCameraDemo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StereoCameraDemo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/StereoCameraDemo.dir/build: /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Runtime/Bin/StereoCameraDemo
+CMakeFiles/StereoCameraDemo.dir/build: /home/budaoshi/Smarteye/Runtime/Bin/StereoCameraDemo
 
 .PHONY : CMakeFiles/StereoCameraDemo.dir/build
 
@@ -189,6 +189,6 @@ CMakeFiles/StereoCameraDemo.dir/clean:
 .PHONY : CMakeFiles/StereoCameraDemo.dir/clean
 
 CMakeFiles/StereoCameraDemo.dir/depend:
-	cd /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/build /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/build /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles/StereoCameraDemo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/build /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/build /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/build/CMakeFiles/StereoCameraDemo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/StereoCameraDemo.dir/depend
 

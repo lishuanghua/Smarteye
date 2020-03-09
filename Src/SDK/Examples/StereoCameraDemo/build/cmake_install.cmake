@@ -1,4 +1,4 @@
-# Install script for directory: /home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo
+# Install script for directory: /home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

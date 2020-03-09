@@ -228,3 +228,17 @@ void MyCameraHandler::handleUpdateFinished(Result result)
         std::cout << "If you want to update firmware, please press 'u' to try again !!! " << std::endl;
     }
 }
+
+void MyCameraHandler::Start()
+{
+    //std::cout << &pCallbackFunc << std::endl;
+    //std::cout << pCallbackFunc << std::endl;
+    (*pCallbackFunc)(1, 5, 9, "This is callback function!");
+}
+
+bool MyCameraHandler::SetCallback(CallbackFunc ptr)
+{
+    pCallbackFunc = ptr;
+
+    return true;
+}

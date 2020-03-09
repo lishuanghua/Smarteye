@@ -19,6 +19,9 @@ int main(int argc, char *argv[])
     {
         std::cout << "if(pParent != nullptr)" << std::endl;
         bool bResult = pParent->Init();
+        bResult = pParent->SetCallback();
+        //bResult = pParent->SetCallbackEx(&Parent::Callback);
+        //bResult = pParent->SetCallbackEx((CallbackFunc)(&Parent::Callback));
         if(bResult == true)
         {
             std::cout << "if(bResult == true)" << std::endl;

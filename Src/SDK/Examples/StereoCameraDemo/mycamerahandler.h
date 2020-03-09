@@ -5,6 +5,8 @@
 #include "calibrationparams.h"
 #include "rotationmatrix.h"
 
+typedef bool (*CallbackFunc)(int x, int y, int z, char* str); 
+
 class MyCameraHandler: public CameraHandler
 {
 public:
@@ -13,6 +15,8 @@ public:
     void handleUpdateFinished(Result result);
     void setStereoCalibParams(StereoCalibrationParameters &params);
     void setRotationMatrix(RotationMatrix &rotationMatrix);
+    void Start();
+    bool SetCallback(CallbackFunc ptr);
 
 protected:
     void processFrame(int frameId, char *image, uint32_t dataSize, int width, int height, int frameFormat);
@@ -26,4 +30,5 @@ private:
     StereoCalibrationParameters mStereoCalibrationParameters;
     bool mIsCalibParamReady;
     RotationMatrix mRotationMatrix;
+    CallbackFunc pCallbackFunc;
 };

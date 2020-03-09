@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Src/SDK/Examples/StereoCameraDemo/../../inc 
+CXX_INCLUDES = -I/home/budaoshi/Smarteye/Src/SDK/Examples/StereoCameraDemo/../../inc 
 

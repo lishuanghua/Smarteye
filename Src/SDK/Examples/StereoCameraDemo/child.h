@@ -18,6 +18,7 @@ public:
     bool Uninit();
     bool Start();
     bool Stop();
+    bool SetCallback(CallbackFunc ptr);
     void handleRawFrame(const RawImageFrame *rawFrame);
 
 private:

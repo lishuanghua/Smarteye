@@ -43,6 +43,7 @@ bool Child::Start()
     std::cout << "Enter bool Child::Start()"  << std::endl;
     pcameraA->enableTasks(TaskId::ObstacleTask | TaskId::LaneTask | TaskId::DisplayTask);
     pcameraA->requestFrame(pcameraHandlerA, FrameId::Disparity );
+    pcameraHandlerA->Start();
     std::cout << "Leave bool Child::Start()"  << std::endl;
 
     return true;
@@ -60,4 +61,11 @@ void Child::handleRawFrame(const RawImageFrame *rawFrame)
     std::cout << "void Child::handleRawFrame(const RawImageFrame *rawFrame)" << std::endl;
     std::cout << "void Child::handleRawFrame(const RawImageFrame *rawFrame)" << std::endl;
 
+}
+
+bool Child::SetCallback(CallbackFunc ptr)
+{
+    pcameraHandlerA->SetCallback(ptr);
+
+    return true;
 }

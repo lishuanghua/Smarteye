@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/StereoCameraDemo.dir/mycamerahandler.cpp.o"
   "CMakeFiles/StereoCameraDemo.dir/parent.cpp.o"
   "CMakeFiles/StereoCameraDemo.dir/child.cpp.o"
-  "/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Runtime/Bin/StereoCameraDemo.pdb"
-  "/home/budaoshi/Sdk-Release_linux-g++_v0.2.23/Runtime/Bin/StereoCameraDemo"
+  "/home/budaoshi/Smarteye/Runtime/Bin/StereoCameraDemo.pdb"
+  "/home/budaoshi/Smarteye/Runtime/Bin/StereoCameraDemo"
 )
 
 # Per-language clean rules from dependency scanning.
